@@ -1,0 +1,20 @@
+.certificate {
+  margin-top: 15px;
+
+  p {
+    @include advertising;
+  }
+}
+.certificate-items{
+  margin-top: 70px;
+  color: $top-content-color;
+  img{
+    width: 100%;
+  }
+  p {
+    text-align: center;
+  }
+}
+.certificate-img{
+  padding-bottom: 38px;
+}

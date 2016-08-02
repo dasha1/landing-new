@@ -1,0 +1,39 @@
+html,
+body,
+ul,
+ol,
+p
+{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 14px;
+  width: 100%!important;
+  border: none;
+}
+ul{
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+h1 {
+  font: {
+    size: 46px;
+    weight: bold;
+  };
+}
+h3 {
+  font: {
+    size: 32px;
+    weight: bold;
+  };
+}
+button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}

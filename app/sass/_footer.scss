@@ -1,0 +1,74 @@
+@import "variables";
+#main-footer  {
+  background-color:#032649 ;
+  min-height:320px ;
+  color: white;
+  position: relative;
+   .footer-item{
+     display: table-cell;
+     text-align: center;
+     padding: 15px 20px;
+   }
+  .footer-img {
+    width: 70px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+  }
+  #footer-info{
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  #phone {
+    background-image: url("#{$imgPath}c_phone.png");
+    @include footer-img
+  }
+  #email{
+    background-image: url("#{$imgPath}c_email.png");
+    @include footer-img
+  }
+  #skype {
+    background-image: url("#{$imgPath}c_skype.png");
+    @include footer-img
+  }
+  #adress {
+    background-image: url("#{$imgPath}c_adress.png");
+    @include footer-img
+  }
+  #footer-social {
+    width: 236px;
+    height: 56px;
+    display: block;
+    margin: auto;
+    clear: both;
+  }
+  .social-item{
+    width: 36px;
+    height: 36px;
+    padding: 50px 29px;
+    display: inline-block;
+  }
+  #vk{
+    background-image: url("#{$imgPath}soc_vk.png");
+    @include footer-img
+  }
+  #tw{
+    background-image: url("#{$imgPath}soc_tw.png");
+    @include footer-img
+  }
+  #fb{
+    background-image: url("#{$imgPath}soc_fb.png");
+    @include footer-img
+  }
+  #gl{
+    background-image: url("#{$imgPath}soc_gl.png");
+    @include footer-img
+  }
+  #footer-copiright {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+  }
+}
+

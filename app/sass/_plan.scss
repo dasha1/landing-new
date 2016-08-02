@@ -1,0 +1,36 @@
+.plan
+{
+  background-color: $top-content-color;
+  color: $white;
+  position: relative;
+  &:before{
+    content: '';
+    background:  url("#{$imgPath}cloud.svg") repeat-x 0 0;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    display: block;
+    right: 0;
+    left: 0;
+    transform: rotate(0.5turn);}
+  li::before{
+    content: url("#{$imgPath}arrow.png");
+    float: left;
+    margin-top: 24px;
+  }
+  .plan-item {
+    float: right;
+    margin: 20px;
+    font-size: 16px;
+  }
+  ul {
+    margin-top: 50px;
+  }
+}
+.plan-content {
+  padding-top: 150px;
+  padding-bottom:50px ;
+}
+.plan-work {
+  padding-left: 15px;
+}
